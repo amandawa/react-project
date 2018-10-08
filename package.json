@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "echo \"BUILD OK\" && exit 0",
-    "prebuild": "npm run test"
+    "prebuild": "npm run test",
+    "version": "node version-check.js"
+  },
+  "engines": {
+    "node": "8.12.0"
   },
   "repository": {
     "type": "git",
@@ -17,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/amandawa/react-project/issues"
   },
-  "homepage": "https://github.com/amandawa/react-project#readme"
+  "homepage": "https://github.com/amandawa/react-project#readme",
+  "devDependencies": {
+    "semver": "^5.5.1"
+  }
 }
