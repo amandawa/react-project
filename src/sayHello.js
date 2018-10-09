@@ -1,3 +1,3 @@
-exports.greet = function greet(name){
-    return 'Hello, ' + name;
-};
+exports.greet = (name) => (typeof name == 'string')?('Hello, ' + name):('Please provide your name.');
+
+
